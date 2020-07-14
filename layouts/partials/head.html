@@ -5,8 +5,8 @@
 		<span class="affilation">
 			{{- range $index, $key := .Site.Params.affilation -}}
 			<ul class="flat">
-				<li class="position">{{$key.position}}, {{$key.name}}</li>
-				<li class="email">{{ $key.contact}}</li>
+                  <li class="position">{{$key.position}}, {{$key.name}}</li>
+                  <li class="email"><img src={{ "echannel184x16.jpg" | absURL }} width="184" height="16" /></li>
 			</ul>
 			{{- end -}}
 		</span>
